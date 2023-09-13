@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int N, h, i, Bi;
+    cin>>N;
+    h=0;
+    for(i=0; i<N; i++){
+        cin>>Bi;
+        h+=Bi;
+    }
+    cout<<h;
+}
