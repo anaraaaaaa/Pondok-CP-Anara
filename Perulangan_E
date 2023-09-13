@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int x;
+    cin>>x;
+    while ((x>1)&&(x%2==0)){
+        x/=2;
+    }
+    if (x==1){
+        cout<<"ya";
+    }
+    else{
+        cout<<"bukan";
+    }
+    return 0;
+}
